@@ -1,0 +1,263 @@
+:root {
+  --color-border-button: rgb(22, 19, 182), rgb(196, 138, 210), rgb(155, 47, 218),
+                rgb(214, 21, 124);
+}
+
+
+.projects-container{
+    position: absolute;
+    
+    width: 100%;
+    height: 1024px;
+    top: 3077px;
+    margin-top: 250px;
+}
+
+.background{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1025px;
+    left: 3px;
+    top: 0px;
+}
+
+.bg-ligth-circle{
+position: absolute;
+width: 1350px;
+height: 1012px;
+left: -5px;
+top: 51px;
+}
+
+.seventh-image{
+    position: absolute;
+    width: 350px;
+    height: 435px;
+    left: -3px;
+    top: 54px;
+}
+
+.eighth-image{
+    position: absolute;
+    width: 363px;
+    height: 413px;
+    left: 900px;
+    top: -43px;
+}
+
+.ninth-image{
+    position: absolute;
+    width: 300px;
+    height: 359.73px;
+    left: -3px;
+    top: 710px;
+}
+
+.tenth-image{
+    position: absolute;
+width: 500px;
+height: 714.01px;
+left: 846px;
+top: 729px;
+}
+
+
+.title-project-container{
+    width: 571px;
+    height: 45px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.title-project{
+    position: absolute;
+    width: 530px;
+    height: 38px;
+    left: 400px;
+    top: 4px;
+    font-family: 'Oxygen';
+    font-style: bold;    
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.link-projects{
+  text-align: center;
+  text-decoration: none;
+  color: #D143F3F7;
+  font-family: 'Oxygen';
+    font-style: bold;  
+    font-weight: 700;
+    font-size: 20px;  
+    line-height: 38px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.websites-container{
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 25px;
+grid-row-gap: 30px;
+width: 810px;
+height: 904px;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin-top: 50px;
+margin-left: 260px;
+place-content: center;
+padding: 0px 306px;
+}
+
+
+.card-container{
+  gap: 10px;
+  width: 380px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  backdrop-filter: blur(10px);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.card{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.top-card-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 3px 10px;
+  gap: 20px;
+  width: 380px;
+  height: 200px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.text-card{
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.button-card-container{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 25px;
+width: 257px;
+height: 55px;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.container-card-button{
+  background: linear-gradient(to right, var(--color-border-button));
+  width: 110px;
+  height: 55px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: coresDancantes 2s linear infinite;
+}
+@keyframes coresDancantes {
+  100% {
+      filter: hue-rotate(360deg);
+  }
+}
+
+.button-card{
+ text-decoration: none;
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 15px;
+width: 100px;
+height: 45px;
+background: #000000;
+border-radius: 30px;
+font-family: 'Oxygen';
+font-style: normal;
+font-weight: 100;
+font-size: 15px;
+line-height: 15px;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.title-card-container{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+align-items: center;
+padding: 20px 138px;
+gap: 10px;
+width: 380px;
+height: 70px;
+background: rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 30px 30px;
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.title-card{
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-align: center;
+  width: 104px;
+  height: 30px;
+}
