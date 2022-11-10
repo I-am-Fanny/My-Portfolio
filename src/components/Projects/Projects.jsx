@@ -20,7 +20,7 @@ function Projects(){
               text='A to-do app for people to organize their day.Created with React.js, JSX and CSS.'
               title='Task-App'
               repository='https://github.com/I-am-Fanny/TO-DO--APP.git'
-              website='https://taskapp-fanny.netlify.app/' />
+              website='https://to-do-fanny.netlify.app/' />
               <Websites
               text='Basic calculator created with React.js, JSX, and CSS.' 
               title='Calculator'
