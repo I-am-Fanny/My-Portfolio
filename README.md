@@ -6,4 +6,4 @@
 
 💛React.js
 
-# Cooming soon fully responsive
+# 🚨 Cooming soon fully responsive
