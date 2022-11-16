@@ -14,6 +14,7 @@
   top: 112px;
 }
 
+
 .info-contact{
   box-sizing: border-box;
   display: flex;
@@ -26,7 +27,7 @@
   width: 899px;
   height: 600px;
   left: 200px;
-  top: -150px;
+  top: -90px;
   background: rgba(48, 35, 134, 0.6);
   border-radius: 30px;
 }
@@ -333,7 +334,7 @@ flex-grow: 0;
 
 .image-girl-container{
 z-index: 100;
-  display: flex;
+display: flex;
 flex-direction: row;
 align-items: flex-start;
 padding: 15px;
@@ -342,7 +343,7 @@ position: absolute;
 width: 351px;
 height: 739px;
 left: 0px;
-top: 285px;
+top: 150px;
 }
 
 .girl-clock{
@@ -354,55 +355,7 @@ align-self: stretch;
 flex-grow: 1;
 }
 
-.diamond-container{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  z-index: 100;
-  position: absolute;
-  width: 511px;
-  height: 469px;
-  left: 856px;
-  top: 700px;
-}
 
-.diamond-frame{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 10px;
-  width: 511px;
-  height: 469px;
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 1;
-}
-
-.diamond-image{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 10px;
-  width: 511px;
-  height: 469px;
-  flex: none;
-  order: 0;
-  align-self: stretch;
-  flex-grow: 1;
-}
-
-.diamond{
-  width: 469px;
-height: 511px;
-flex: none;
-order: 0;
-align-self: stretch;
-flex-grow: 1;
-}
 
 .website-link{
   z-index: 1;

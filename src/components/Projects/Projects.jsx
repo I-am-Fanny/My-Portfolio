@@ -10,7 +10,7 @@ function Projects(){
         <article className='projects-container' id="projects">
             <section className=''>
             <div className='title-project-container'>
-                <p className='title-project'>Here are a some projects. See more on <a className='link-projects' href='https://github.com/I-am-Fanny'>Github</a></p>
+                <p className='title-project'>Here are a few projects. See more on <a className='link-projects' href='https://github.com/I-am-Fanny'>Github</a></p>
             </div>
             <img className='seventh-image' src={seventhImage} alt='' />
                 <img className='tenth-image' src={tenthImage} alt='' />

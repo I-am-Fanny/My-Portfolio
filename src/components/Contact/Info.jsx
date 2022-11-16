@@ -3,6 +3,8 @@ import { BsFillTelephoneFill } from 'react-icons/bs';
 import { MdEmail } from 'react-icons/md';
 import '../../Styles/Contact.css';
 
+
+
 function Info(){
     return(
         <>
@@ -21,6 +23,7 @@ function Info(){
                 <MdEmail className='email'/>
               </div>
               <p className='email-text'>fannyapablaza7@gmail.com</p>
+              
             </div>
           </section>
         </div>

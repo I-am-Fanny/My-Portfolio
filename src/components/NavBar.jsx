@@ -67,7 +67,7 @@ function NavBar(){
               to="contact"
               spy={true}
               smooth={true}
-              offset={200}
+              offset={20}
               duration={1500}>
               Contact
             </Link>

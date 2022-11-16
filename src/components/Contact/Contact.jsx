@@ -3,10 +3,14 @@ import '../../Styles/Contact.css';
 import Social from './Social';
 import Info from './Info';
 import girlAndClock from '../../img/girl-clock.png';
-import diamond from '../../img/diamond-footer.png';
+
 
 
 function Contact(){
+
+
+
+
     return(
         <>
           <article className='general-contact-container' id="contact">
@@ -30,7 +34,7 @@ function Contact(){
                     logo='linkedin' />
                     <Social
                     social='gmail'
-                    web='mailto:fannyapablaza7@gmail.com'
+                    web= "mailto:fannyapablaza7@gmail.com"
                     name='Gmail'
                     logo='gmail' />
                     <Social
@@ -52,17 +56,11 @@ function Contact(){
                   <Info />
                 </div>
               </div>
-              <div className='diamond-container'>
-                <div className='diamond-frame'>
-                  <div className='diamond-image'>
-                    <img src={diamond} alt='diamond' className='diamond' />
-                  </div>
-                </div>
-              </div>
+              
             </section>
           </article>
         </>
     );
-}
+};
 
 export default Contact;

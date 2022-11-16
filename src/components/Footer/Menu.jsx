@@ -4,6 +4,7 @@ import { FaRegUser } from 'react-icons/fa';
 import { MdWork } from 'react-icons/md';
 import { MdOutlinePermPhoneMsg } from 'react-icons/md';
 import '../../Styles/Footer.css';
+import {Link} from 'react-scroll';
 
 
 function Menu(){
@@ -14,8 +15,16 @@ function Menu(){
               <div className='icon-home'>
                 <AiOutlineHome className='home' />
               </div>
-              <div className='home-text'>
-                <a href='/#' className='home-link'>Home</a>
+              <div className='home-text'> 
+                <Link className='home-link'
+                activeClass="active"
+                to="main"
+                spy={true}
+                smooth={true}
+                offset={40}
+                duration={1000}>
+                  Home
+                  </Link>
               </div>
             </div>
             
@@ -24,7 +33,15 @@ function Menu(){
                 <FaRegUser className='about' />
               </div>
               <div className='about-text'>
-                <a href='/#' className='about-link'>About</a>
+                <Link className='about-link'
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={280}
+                duration={1500}>
+                  About
+                  </Link>
               </div>
             </div>
             
@@ -33,7 +50,15 @@ function Menu(){
                 <MdWork className='project' />
               </div>
               <div className='project-text'>
-                <a href='/#' className='project-link'>Projects</a>
+                <Link className='project-link'
+                activeClass="active"
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={10}
+                duration={1500}>
+                Projects
+                </Link>
               </div>
             </div>
             
@@ -42,7 +67,15 @@ function Menu(){
                 <MdOutlinePermPhoneMsg className='contact' />
               </div>
               <div className='contact-text'>
-                <a href='/#' className='contact-link'>Contact</a>
+                <Link className='contact-link'
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={20}
+                duration={1500}>
+                Contact
+                </Link>
               </div>
             </div>
         </div>
