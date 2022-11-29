@@ -369,4 +369,279 @@ color: #000000;
 text-align: center;
 }
 
+/*media query min 992 max 1199.98*/
+@media (min-width:992px) and (max-width:1199.98px){
+  .info-text{
+    font-size: 1.1rem;
+  }
+}
 
+/*media query min 768 max 991.98*/
+@media (min-width:768px) and (max-width:991.98px){
+  .general-contact-container{
+    min-width: 768px;
+    max-width: 991.98px;
+  }
+
+  .info-text{
+    font-size: 1.2rem;
+    line-height: 130%;
+  }
+
+  .info-frame-container{
+    top: 310px;
+  }
+}
+
+/*media query min 576px max 767.98*/
+@media (min-width:576px) and (max-width:767.98px){
+  .general-contact-container{
+    position: absolute;
+    min-width: 576px;
+    max-width: 767.98px;
+    height: 100%;
+    left: 5px;
+    top: 9200px;
+  }
+
+  .info-contact{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    width: 950px;
+    height: 1200px;
+    left: 200px;
+   
+    background: rgba(48, 35, 134, 0.6);
+    border-radius: 30px;
+  }
+  
+  .frame-contact{
+    width: 950px;
+    height: 1200px;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(2, 1fr);
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+  }
+  
+  .info-frame{
+    top: 0;
+    height: 600px;
+  width: 950px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .info-title{
+  width: 950px;
+  height: 60px;
+  font-size: 3.5rem;
+  text-align: center;
+  padding-top: 40px;
+  }
+  
+  
+  
+  .info-text{
+    width: 950px;
+    height: 200px;
+    font-size: 2.7rem;
+    padding: 50px 30px;
+    text-align: center;
+  }
+  
+  .info-frame-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    top: 350px;
+    width: 950px;
+    padding: 20px;
+    height: 200px;
+    gap: 140px;
+  }
+  
+  
+  .phone-icon, .email-icon{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 50px;
+  }
+  
+  .phone, .email{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .phone-text, .email-text{
+    width: 90px;
+    height: 50px;
+    font-size: 2rem;
+  }
+  
+  .image-girl-container{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -730px;
+  left: 475px;
+  }
+  
+  .social-media{
+    top: 600px;
+    left: 0;
+    width: 899px;
+  }
+  
+  .website-link{
+    font-size: 50px;
+  }
+  
+  .github, .linkedin, .gmail, .skype, .whatsapp, .twitter{
+    width: 950px;
+    border-radius: 0px;
+  }
+  
+  .twitter{
+    border-radius: 0px 0px 30px 30px;
+  }
+}
+
+
+/*media query min 320px max 575.98*/
+@media (min-width: 320px) and (max-width: 575.98px){
+  .general-contact-container{
+    position: absolute;
+    min-width: 320px;
+    height: 100%;
+    left: 5px;
+    top: 9200px;
+  }
+
+
+.info-contact{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  width: 950px;
+  height: 1200px;
+  left: 200px;
+ 
+  background: rgba(48, 35, 134, 0.6);
+  border-radius: 30px;
+}
+
+.frame-contact{
+  width: 950px;
+  height: 1200px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.info-frame{
+  top: 0;
+  height: 600px;
+width: 950px;
+left: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.info-title{
+width: 950px;
+height: 60px;
+font-size: 3.5rem;
+text-align: center;
+padding-top: 40px;
+}
+
+
+
+.info-text{
+  width: 950px;
+  height: 200px;
+  font-size: 2.7rem;
+  padding: 50px 30px;
+  text-align: center;
+}
+
+.info-frame-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  top: 350px;
+  width: 950px;
+  padding: 20px;
+  height: 200px;
+  gap: 140px;
+}
+
+
+.phone-icon, .email-icon{
+  width: 80px;
+  height: 80px;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.phone, .email{
+  width: 50px;
+  height: 50px;
+}
+
+.phone-text, .email-text{
+  width: 90px;
+  height: 50px;
+  font-size: 2rem;
+}
+
+.image-girl-container{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: -730px;
+left: 475px;
+}
+
+.social-media{
+  top: 600px;
+  left: 0;
+  width: 899px;
+}
+
+.website-link{
+  font-size: 50px;
+}
+
+.github, .linkedin, .gmail, .skype, .whatsapp, .twitter{
+  width: 950px;
+  border-radius: 0px;
+}
+
+.twitter{
+  border-radius: 0px 0px 30px 30px;
+}
+}

@@ -6,7 +6,6 @@ import secondImage from '../img/second-image.png';
 
 function Main(){
    return(
-    <>
     <div className='home-container' id="home">
     <div className='first-image-container'>
         <img className='first-image' src={firstImage} alt='planet' />
@@ -26,7 +25,7 @@ function Main(){
     </div>
     </div>
     
-    </>
+
    )
 }
 

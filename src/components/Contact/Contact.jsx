@@ -21,7 +21,6 @@ function Contact(){
               <div className='info-contact'>
                 <div className='frame-contact '>
                   <div className='social-media'>
-
                     <Social
                     social='github'
                     web='https://github.com/I-am-Fanny'

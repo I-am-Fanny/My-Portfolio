@@ -7,7 +7,6 @@ import '../../Styles/Contact.css';
 
 function Info(){
     return(
-        <>
         <div className='info-frame'>
           <p className='info-title'>Connect with me</p>
           <p className='info-text'>I'm very approachable and would love to speak to you. Feel free to call me, send me an email, a message or follow me in Github and Linkedin.</p>
@@ -27,7 +26,6 @@ function Info(){
             </div>
           </section>
         </div>
-        </>
     );
 }
 

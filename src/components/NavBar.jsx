@@ -37,7 +37,7 @@ function NavBar(){
               to="about"
               spy={true}
               smooth={true}
-              offset={280}
+              offset={1380}
               duration={1500}>
               About
             </Link>

@@ -12,7 +12,7 @@ import Skills from "./components/Skills/Skills";
 
 function App() {
   return (
-    <React.Fragment>
+    <React.Fragment className='app-container'>
     <NavBar />
     <Main id='main'/>
     <About id='about' />
