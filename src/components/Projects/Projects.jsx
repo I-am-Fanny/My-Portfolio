@@ -1,7 +1,7 @@
 import React from "react";
 import '../../Styles/Projects.css';
 import seventhImage from '../../img/seventh-image.png';
-import tenthImage from '../../img/tenth-image.png'; 
+import tenthImage from '../../img/circle-diamond.png'; 
 import Websites from "./Websites";
 
 function Projects(){
@@ -10,10 +10,10 @@ function Projects(){
         <article className='projects-container' id="projects">
             <section className=''>
             <div className='title-project-container'>
-                <p className='title-project'>Here are a few projects. See more on <a className='link-projects' href='https://github.com/I-am-Fanny'>Github</a></p>
+                <p className='title-project'>Here are a few projects. See more on <a className='link-projects' href='https://github.com/I-am-Fanny' target="_blank" rel="noopener noreferrer">Github</a></p>
             </div>
-            <img className='seventh-image' src={seventhImage} alt='' />
-                <img className='tenth-image' src={tenthImage} alt='' />
+                <img className='seventh-image' src={seventhImage} alt='pink planet' />
+                <img className='tenth-image' src={tenthImage} alt='blue planet' />
             </section>
             <section className='websites-container'>
             <Websites

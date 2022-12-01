@@ -31,7 +31,7 @@ function NavBar(){
               duration={1000}>
               Home
             </Link>
-         
+            
             <Link className="link" 
               activeClass="active"
               to="about"
@@ -41,7 +41,7 @@ function NavBar(){
               duration={1500}>
               About
             </Link>
-          
+            
             <Link className="link" 
               activeClass="active"
               to="skills"
@@ -51,7 +51,7 @@ function NavBar(){
               duration={1500}>
               Skills
             </Link>
-          
+            
             <Link className="link" 
               activeClass="active"
               to="projects"
@@ -61,7 +61,7 @@ function NavBar(){
               duration={1500}>
               Projects
             </Link>
-          
+            
             <Link className="link" 
               activeClass="active"
               to="contact"
@@ -71,7 +71,7 @@ function NavBar(){
               duration={1500}>
               Contact
             </Link>
-         
+            
         <button className='nav-btn nav-close-button' onClick={showNavBar}>
           <FaTimes />
         </button>

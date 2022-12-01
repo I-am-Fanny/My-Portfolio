@@ -23,6 +23,7 @@ function Main(){
     <div className='second-image-container'>
         <img className='second-image' src={secondImage} alt='galaxy' />
     </div>
+    
     </div>
     
 
